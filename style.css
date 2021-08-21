@@ -213,7 +213,7 @@ header {
     background-position: center;   
     background-size: cover;
     background-repeat: no-repeat;
-    justify-content: flex-end;
+    justify-content: center; /**/
     align-items: center;
 
 
@@ -229,7 +229,7 @@ header {
     background-position: center;   
     background-size: cover;
     background-repeat: no-repeat;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 
 }
@@ -237,16 +237,17 @@ header {
 
 .main__section_one--title-green{ 
     color: var(--Dark);
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: bold;
     font-family: 'Fraunces', serif;  
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+    margin-top: 60vh;
 }
 
 .main__section_one--paragraph-green{
     color: var(--Dark);
-    font-size: 1.6rem;
-    margin-top: 25px;
+    font-size: 2rem;
+    margin-top: 30px;
     margin-bottom: 50px;
     text-align: center;
     padding-left: 15px;
@@ -256,17 +257,18 @@ header {
 
 .main__section_two--title-blue{
     color: var(--Very-dark-desaturated-blue);
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: bold;
     font-family: 'Fraunces', serif;  
-    margin-bottom: 25px;
+    margin-bottom: 60px;
     text-align: center;
+    margin-top: 50vh;
 }
 
 .main__section_one--paragraph-green{
     color: var(--Very-dark-desaturated-blue);
-    font-size: 1.6rem;
-    margin-top: 25px;
+    font-size: 2rem;
+    margin-top: 30px;
     margin-bottom: 50px;
     text-align: center;
     padding-left: 15px;
