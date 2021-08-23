@@ -1,0 +1,87 @@
+header {
+    background: url(./images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;   
+    background-size: cover;
+}
+
+.main__transform{
+    height: 150vh;
+}
+
+.main__section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.main__section{
+    height: 75vh;
+    width: 100%;
+}
+
+.main__section1, .main__section2{
+    height: 75vh;
+}
+
+.main__section--conteiner{
+    height: 75vh;
+}
+
+.main__section1{
+    order: 1;
+}
+
+.cards{
+    display: flex;
+
+}
+.main__section_one, .main__section_two{
+    height: 75vh;
+    width: 50%;
+}
+
+.main__section_one{
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    background-position: center;   
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main__section_two{
+    background-image: url(./images/desktop/image-photography.jpg);
+    background-position: center;   
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main__section_one--title-green, .main__section_two--title-blue {
+    margin-top: 50vh;
+    margin-bottom: 0px;
+}
+
+.main__section_one--paragraph-green{
+
+    margin: 30px, 50px, 50px;
+    padding-left: 100px ;
+    padding-right: 100px;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+
+.Image{
+    display: flex;
+    flex-direction: row;
+    height:50%;
+}
+
+
+
+
+
+
