@@ -3,7 +3,14 @@ header {
     background-repeat: no-repeat;
     background-position: center;   
     background-size: cover;
+    padding: 50px;
 }
+
+.header__nav--menu li a{
+    
+    font-size: 20px;
+}
+
 
 .main__transform{
     height: 150vh;
